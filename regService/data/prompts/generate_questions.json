@@ -1,0 +1,3 @@
+{
+    "generate_questions": "Suppose you were in the position of a seasoned in-house lawyer working for a technology company with a strong background in contract law. Given the context I have provided, generate legal questions based on the context. Also create a key for each question containing the concise question.\nThe type of document is {doc_type}. Return the response in JSON format with the following format write only the question and key:\n\nQuestion: <question>\nkey: <key>\n\nContext information is below.\n---------------------\n{context}\n---------------------\nGiven the context information,\nanswer the question: {question}\n\nAnswer:"
+}
